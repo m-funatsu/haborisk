@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="8" fill="#DC2626"/>
+  <!-- Person silhouette -->
+  <circle cx="13" cy="9.5" r="3.5" fill="white"/>
+  <path d="M6,24 C6,18.5 8.5,15 13,15 C15.5,15 17,16 18,17.5" fill="white"/>
+  <!-- Warning triangle -->
+  <path d="M23,14 L28.5,24 L17.5,24 Z" fill="none" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+  <line x1="23" y1="18" x2="23" y2="21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="23" cy="22.8" r="0.8" fill="white"/>
+</svg>
