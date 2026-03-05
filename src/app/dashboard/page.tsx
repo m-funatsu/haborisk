@@ -69,7 +69,7 @@ export default function DashboardPage() {
   }, [assessment]);
 
   const exportColumns = [
-    { key: 'assessedAt', label: '診断日', format: (v: string) => new Date(v).toLocaleDateString('ja-JP') },
+    { key: 'assessedAt', label: '診断日', format: (v: unknown) => new Date(String(v)).toLocaleDateString('ja-JP') },
     { key: 'overallScore', label: '総合リスクスコア' },
     { key: 'age', label: '年齢リスク' },
     { key: 'keyPerson', label: 'キーパーソンリスク' },
