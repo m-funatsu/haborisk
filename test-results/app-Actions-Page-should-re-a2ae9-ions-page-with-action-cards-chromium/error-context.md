@@ -1,0 +1,47 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "アクションプラン" [level=1] [ref=e5]
+      - paragraph [ref=e6]: リスク診断に基づく改善施策
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: "0"
+        - generic [ref=e11]: 総提案数
+      - generic [ref=e12]:
+        - generic [ref=e13]: "0"
+        - generic [ref=e14]: 緊急対応
+      - generic [ref=e15]:
+        - generic [ref=e16]: "0"
+        - generic [ref=e17]: 実施中
+    - generic [ref=e19]:
+      - button "すべて" [ref=e20]
+      - button "採用" [ref=e21]
+      - button "DX・自動化" [ref=e22]
+      - button "研修・育成" [ref=e23]
+      - button "外注" [ref=e24]
+      - button "事業承継" [ref=e25]
+    - generic [ref=e28]: アクションプランがありません
+  - navigation [ref=e29]:
+    - generic [ref=e30]:
+      - link "ダッシュボード" [ref=e31] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e32]
+        - generic [ref=e34]: ダッシュボード
+      - link "従業員" [ref=e35] [cursor=pointer]:
+        - /url: /employees
+        - img [ref=e36]
+        - generic [ref=e38]: 従業員
+      - link "診断" [ref=e39] [cursor=pointer]:
+        - /url: /assessment
+        - img [ref=e40]
+        - generic [ref=e42]: 診断
+      - link "設定" [ref=e43] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e44]
+        - generic [ref=e47]: 設定
+  - button "Open Next.js Dev Tools" [ref=e53] [cursor=pointer]:
+    - img [ref=e54]
+```

@@ -1,0 +1,65 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: 中小企業向け
+      - heading "人手不足リスク 診断ダッシュボード" [level=1] [ref=e6]:
+        - text: 人手不足リスク
+        - text: 診断ダッシュボード
+      - paragraph [ref=e7]: 従業員データを入力するだけで、自社の人手不足リスクを定量化。 年齢構成・キーパーソン依存・離職率・季節変動・事業承継の5軸で診断し、 具体的な対策を提案します。
+      - generic [ref=e8]:
+        - link "ダッシュボードを見る" [ref=e9] [cursor=pointer]:
+          - /url: /dashboard
+        - link "従業員を登録" [ref=e10] [cursor=pointer]:
+          - /url: /employees
+    - generic [ref=e11]:
+      - heading "日本の人手不足の現状" [level=2] [ref=e12]
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]: 53.4%
+          - generic [ref=e16]: 正社員不足企業
+        - generic [ref=e17]:
+          - generic [ref=e18]: 397件
+          - generic [ref=e19]: 人手不足倒産(2025年)
+        - generic [ref=e20]:
+          - generic [ref=e21]: 16兆円
+          - generic [ref=e22]: 逸失利益
+    - generic [ref=e23]:
+      - heading "主な機能" [level=2] [ref=e24]
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: R
+          - generic [ref=e28]:
+            - heading "総合リスクスコア" [level=3] [ref=e29]
+            - paragraph [ref=e30]: 5つの診断軸で人手不足リスクを0〜100で定量化。ゲージチャートで一目瞭然。
+        - generic [ref=e31]:
+          - generic [ref=e32]: K
+          - generic [ref=e33]:
+            - heading "キーパーソン分析" [level=3] [ref=e34]
+            - paragraph [ref=e35]: 「この人が辞めたら？」を可視化。属人性の高い業務を特定し、対策を提案。
+        - generic [ref=e36]:
+          - generic [ref=e37]: P
+          - generic [ref=e38]:
+            - heading "人員予測" [level=3] [ref=e39]
+            - paragraph [ref=e40]: 今後12ヶ月の人員推移を予測。いつ・どの部署で何人不足するかを事前把握。
+        - generic [ref=e41]:
+          - generic [ref=e42]: B
+          - generic [ref=e43]:
+            - heading "業界ベンチマーク" [level=3] [ref=e44]
+            - paragraph [ref=e45]: 同業種の平均離職率・人手不足率と比較。自社のリスクポジションを把握。
+        - generic [ref=e46]:
+          - generic [ref=e47]: A
+          - generic [ref=e48]:
+            - heading "アクションプラン" [level=3] [ref=e49]
+            - paragraph [ref=e50]: リスクスコアに基づき、採用・DX・研修・外注・承継の具体的施策を自動提案。
+    - generic [ref=e52]:
+      - heading "今すぐリスク診断を始めましょう" [level=2] [ref=e53]
+      - paragraph [ref=e54]: デモデータで即座に体験できます
+      - link "無料で診断する" [ref=e55] [cursor=pointer]:
+        - /url: /dashboard
+  - button "Open Next.js Dev Tools" [ref=e61] [cursor=pointer]:
+    - img [ref=e62]
+  - alert [ref=e65]
+```

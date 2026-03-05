@@ -1,0 +1,64 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "リスクダッシュボード" [level=1] [ref=e5]
+      - paragraph [ref=e6]: 総合的な人手不足リスクの評価
+    - generic [ref=e8]:
+      - heading "総合リスクスコア" [level=2] [ref=e9]
+      - generic [ref=e10]:
+        - img [ref=e11]:
+          - generic [ref=e14]: "44"
+          - generic [ref=e15]: / 100
+        - paragraph [ref=e16]: 注意
+        - paragraph [ref=e17]: 人手不足リスクスコア
+    - generic [ref=e18]:
+      - heading "アラート" [level=2] [ref=e19]
+      - generic [ref=e21]:
+        - generic [ref=e23]: 事業承継
+        - generic [ref=e24]: 80点 (危険)
+    - heading "5軸リスク分析" [level=2] [ref=e27]
+    - generic [ref=e30]:
+      - heading "軸別スコア" [level=2] [ref=e31]
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e35]: 年齢構成
+          - generic [ref=e39]: "48"
+        - generic [ref=e40]:
+          - generic [ref=e42]: キーパーソン
+          - generic [ref=e46]: "30"
+        - generic [ref=e47]:
+          - generic [ref=e49]: 離職率
+          - generic [ref=e53]: "33"
+        - generic [ref=e54]:
+          - generic [ref=e56]: 季節変動
+          - generic [ref=e60]: "37"
+        - generic [ref=e61]:
+          - generic [ref=e63]: 事業承継
+          - generic [ref=e67]: "80"
+    - heading "部署別リスク" [level=2] [ref=e70]
+    - button "再診断する" [ref=e74]
+  - navigation [ref=e75]:
+    - generic [ref=e76]:
+      - link "ダッシュボード" [ref=e77] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e78]
+        - generic [ref=e80]: ダッシュボード
+      - link "従業員" [ref=e81] [cursor=pointer]:
+        - /url: /employees
+        - img [ref=e82]
+        - generic [ref=e84]: 従業員
+      - link "診断" [ref=e85] [cursor=pointer]:
+        - /url: /assessment
+        - img [ref=e86]
+        - generic [ref=e88]: 診断
+      - link "設定" [ref=e89] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e90]
+        - generic [ref=e93]: 設定
+  - button "Open Next.js Dev Tools" [ref=e99] [cursor=pointer]:
+    - img [ref=e100]
+  - alert [ref=e103]
+```
