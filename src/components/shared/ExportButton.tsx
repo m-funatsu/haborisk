@@ -9,7 +9,9 @@ interface Column {
 }
 
 interface ExportButtonProps {
-  data: Record<string, unknown>[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  data: any[];
   columns: Column[];
   filename?: string;
   className?: string;
